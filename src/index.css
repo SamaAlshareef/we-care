@@ -11,3 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-img {
+  /* The image used */
+  background-image: url("/images/slider.png");
+
+  min-height: 1048px;
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-card {
+  /* The image used */
+  background-image: url("/images/care1.png");
+
+  min-height: 1140px;
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.pt-6{
+  padding-top: 6rem !important;
+}
+
+.py-6{
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.px-6{
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+}
+
+.pl-6{
+  padding-left: 9rem !important;
+}
+
+.pr-6{
+  padding-right: 9rem !important;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-ExtraLight'), url(./fonts/Montserrat-ExtraLight.ttf) format('truetype');
+
+}
+
+.montserrat{
+  font-family:'Montserrat' ;
+}
+
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: local('Montserrat-Black'), url(./fonts/Montserrat-Black.ttf) format('truetype');
+
+}
+.montserrat-black{
+  font-family:'Montserrat-Black' ;
+}
