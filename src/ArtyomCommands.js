@@ -12,7 +12,6 @@ export default class ArtyomCommandsManager {
     }
     
     clickHandler =(p)=>{
-
         p.handleNavigate();
     }
  
@@ -40,20 +39,20 @@ export default class ArtyomCommandsManager {
                 
             },
             {
-                indexes: ["2"],
+                indexes: ["2","do","to"],
                 action: 
                     ()=>this.clickHandler(elementRefs[1])
                 
             },
             {
-                indexes: ["3"],
+                indexes: ["3","free"],
                 action: 
                 
                      ()=>this.clickHandler(elementRefs[2])
                 
             },
             {
-                indexes: ["4"],
+                indexes: ["4","for"],
                 action: 
                     ()=>this.clickHandler(elementRefs[3])
                 

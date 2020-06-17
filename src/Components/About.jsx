@@ -27,17 +27,17 @@ class About extends Component {
                             <img className="align-middle img-fluid" src='/images/whiteLine.png' alt=".."></img>
                             </div>
                         </div>
-                        <div className="row  justify-content-center">
-                            <div className="col -8">
-                                <div className="align-middle">
-                                <p className="card-text text-center  montserrat display-4 ">Since 2002, Baby Care Advice has assisted thousands of parents</p>
-                                <p className="card-text text-center  montserrat display-4">worldwide solve minor and complex baby care problems by</p>
-                                <p className="card-text text-center montserrat display-4 ">our articles and consultations.</p>
-                                <h1 className="card-text text-center montserrat-black">Book a consultation now!</h1>
+                        <div className="row align-items-center">
+                            <div className="col d-flex flex-column align-items-center ">
+                               
+                                <h1 className="card-text   montserrat  ">Since 2002, Baby Care Advice has assisted thousands of parents</h1>
+                                <h1 className="card-text   montserrat">worldwide solve minor and complex baby care problems by</h1>
+                                <h1 className="card-text  montserrat ">our articles and consultations.</h1>
+                                <h1 className="card-text  montserrat-black">Book a consultation now!</h1>
 
 
 
-                                </div>
+                                
                             
                         </div>
                         </div>

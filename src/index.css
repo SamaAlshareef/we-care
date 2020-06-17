@@ -83,6 +83,10 @@ code {
   font-family:'Montserrat' ;
 }
 
+.res-font{
+  font-size: 1em;
+}
+
 
 @font-face {
   font-family: 'Montserrat-Black';
