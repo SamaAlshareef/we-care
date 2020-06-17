@@ -15,6 +15,9 @@ class BabyCarrier extends Component {
           top: el.offsetTop
         });
       };
+
+     
+      
     render() { 
         return ( 
 

@@ -4,7 +4,13 @@ class Reviews extends Component {
     constructor(props) {
         super(props);
         this.ref = React.createRef();
-        this.state = {  }
+        this.state = {
+            cardsInfo : [
+                
+            {
+
+            }]
+          }
     }
 
     handleNavigate = () => {
@@ -50,6 +56,14 @@ class Reviews extends Component {
                         <div className="card shadow-sm p-3 mb-5 bg-white rounded border-0">
                             <div className="card-body ">
                             <h5 className="card-title">Jackie Parker</h5>
+                            <h5 className="small text-success">a month ago</h5>
+                            <img className="img-fluid" src='/images/4stars.png' alt=".."></img>
+                            <p className="card-text pt-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                        </div>
+                        <div className="card shadow-sm p-3 mb-5 bg-white rounded border-0">
+                            <div className="card-body ">
+                            <h5 className="card-title">Alvin Clark</h5>
                             <h5 className="small text-success">a month ago</h5>
                             <img className="img-fluid" src='/images/4stars.png' alt=".."></img>
                             <p className="card-text pt-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>

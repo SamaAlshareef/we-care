@@ -33,50 +33,50 @@ export default class ArtyomCommandsManager {
         // Here you can load all the commands that you want to Artyom
         return Artyom.addCommands([
             {
-                indexes: ["1"],
+                indexes: ["1","one"],
                 action: 
                     ()=>this.clickHandler(elementRefs[0])
                 
             },
             {
-                indexes: ["2","do","to"],
+                indexes: ["2","do","to","two"],
                 action: 
                     ()=>this.clickHandler(elementRefs[1])
                 
             },
             {
-                indexes: ["3","free"],
+                indexes: ["3","free","three"],
                 action: 
                 
                      ()=>this.clickHandler(elementRefs[2])
                 
             },
             {
-                indexes: ["4","for"],
+                indexes: ["4","for","four"],
                 action: 
                     ()=>this.clickHandler(elementRefs[3])
                 
             },
             {
-                indexes: ["5"],
+                indexes: ["5","five"],
                 action: 
                     ()=>this.clickHandler(elementRefs[4])
                 
             },
             {
-                indexes: ["6"],
+                indexes: ["6","six"],
                 action: 
                     ()=>this.clickHandler(elementRefs[5])
                 
             },
             {
-                indexes: ["7"],
+                indexes: ["7","seven"],
                 action: 
                     ()=>this.clickHandler(elementRefs[6])
                 
             },
             {
-                indexes: ["8"],
+                indexes: ["8","eight"],
                 action: 
                     ()=>this.clickHandler(elementRefs[7])
                 

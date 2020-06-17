@@ -30,10 +30,10 @@ class About extends Component {
                         <div className="row align-items-center">
                             <div className="col d-flex flex-column align-items-center ">
                                
-                                <h1 className="card-text   montserrat  ">Since 2002, Baby Care Advice has assisted thousands of parents</h1>
-                                <h1 className="card-text   montserrat">worldwide solve minor and complex baby care problems by</h1>
-                                <h1 className="card-text  montserrat ">our articles and consultations.</h1>
-                                <h1 className="card-text  montserrat-black">Book a consultation now!</h1>
+                                <h1 className="card-text  text-center montserrat  ">Since 2002, Baby Care Advice has assisted thousands of parents</h1>
+                                <h1 className="card-text  text-center montserrat">worldwide solve minor and complex baby care problems by</h1>
+                                <h1 className="card-text text-center montserrat ">our articles and consultations.</h1>
+                                <h1 className="card-text text-center montserrat-black">Book a consultation now!</h1>
 
 
 
