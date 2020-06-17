@@ -80,8 +80,8 @@ stopAssistant() {
          <div className="row pt-1 pb-2">
               <div className="col-2">
                 <div className="d-flex  flex-row justify-content-start">
-                <button className="btn  btn-success  mr-2" disabled={this.state.artyomActive} onClick={this.startAssistant}> Start</button>
-                <button className="btn  btn-danger btn-md" disabled={!this.state.artyomActive} onClick={this.stopAssistant}> End</button>
+                <button className="btn  btn-success btn-sm  mr-2" disabled={this.state.artyomActive} onClick={this.startAssistant}> Start</button>
+                <button className="btn  btn-danger btn-sm" disabled={!this.state.artyomActive} onClick={this.stopAssistant}> End</button>
                 </div>
               </div>
            </div> 
@@ -89,8 +89,8 @@ stopAssistant() {
            <div className="row pt-1 pb-1">
               <div className="col-3">
                 <div className="d-flex flex-row justify-content-start">
-                <button className="btn  btn-secondary text-center btn-md mr-1">Header 1</button>
-                <button className="btn  btn-secondary text-center btn-md">Deals 2</button>
+                <button className="btn  btn-secondary text-center btn-sm mr-1">Header 1</button>
+                <button className="btn  btn-secondary text-center btn-sm">Deals 2</button>
                 </div>
               </div>
            </div> 
@@ -98,8 +98,8 @@ stopAssistant() {
            <div className="row pt-1 pb-1">
               <div className="col-3">
                 <div className="d-flex flex-row justify-content-start">
-                <button className="btn btn-secondary  btn-md mr-1">Newborn 3</button>
-                <button className="btn btn-secondary btn-md"> Carrier 4</button>
+                <button className="btn btn-secondary  btn-sm mr-1">Newborn 3</button>
+                <button className="btn btn-secondary btn-sm"> Carrier 4</button>
                 </div>
               </div>
            </div> 
@@ -107,8 +107,8 @@ stopAssistant() {
            <div className="row pt-1 pb-1">
               <div className="col-3">
                 <div className="d-flex flex-row justify-content-start">
-                <button className="btn btn-secondary btn-md mr-1">BabyCare 5</button>
-                <button className="btn btn-secondary btn-md">About 6</button>
+                <button className="btn btn-secondary btn-sm mr-1">BabyCare 5</button>
+                <button className="btn btn-secondary btn-sm">About 6</button>
                 </div>
               </div>
            </div> 
@@ -116,8 +116,8 @@ stopAssistant() {
            <div className="row pt-1 pb-1">
               <div className="col-3">
                 <div className="d-flex flex-row justify-content-start">
-                <button className="btn btn-secondary mr-1 btn-md  ">Reviews 7</button>
-                <button className="btn btn-secondary btn-md">Contact 8</button>
+                <button className="btn btn-secondary mr-1 btn-sm  ">Reviews 7</button>
+                <button className="btn btn-secondary btn-sm">Contact 8</button>
                 </div>
               </div>
            </div> 

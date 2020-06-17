@@ -24,13 +24,13 @@ class footerCard extends Component {
                     <div className="card-img-overlay img-fluid d-flex align-items-center">
                         <div className="col-9 d-flex flex-column  align-items-left">
                            
-                                <h2 className="card-text montserrat ">Sign up for our newsletter</h2>
-                                <h2 className="card-text text-left  montserrat-black  ">Newborn baby</h2>
+                                <h2 className="card-text text-center montserrat ">Sign up for our newsletter</h2>
+                                <h2 className="card-text text-center  montserrat-black  ">Newborn baby</h2>
                             
                         </div>
                         <div className="col-3 ">
                             <div className="d-flex ">
-                            <button className="btn btn-secondary btn-bock shadow p-3 mb-5  rounded" >Get started</button>
+                            <button className="btn btn-secondary btn-bock btn-sm shadow p-3 mb-5  rounded" >Get started</button>
                             </div>
                         </div>
                     </div>
