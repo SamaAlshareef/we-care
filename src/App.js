@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Parent from './Components/Parent';
 import Artyom from 'artyom.js';
@@ -77,47 +76,48 @@ stopAssistant() {
        <React.Fragment>
 
          <div className="container-fluid fixed-top pt-2">
-           <div className="row">
-              <div className="col">
-                <div className="d-flex justify-content-start">
-                <button className="btn btn-success btn-md mr-1">Header 1</button>
-                <button className="btn btn-success btn-md">Deals 2</button>
-                </div>
-              </div>
-           </div> 
 
-           <div className="row pt-1">
-              <div className="col">
-                <div className="d-flex justify-content-start">
-                <button className="btn btn-success mr-1">Newborn 3</button>
-                <button className="btn btn-success"> Carrier 4</button>
-                </div>
-              </div>
-           </div> 
-
-           <div className="row pt-1">
-              <div className="col">
-                <div className="d-flex justify-content-start">
-                <button className="btn btn-success mr-1">BabyCare 5</button>
-                <button className="btn btn-success">About 6</button>
-                </div>
-              </div>
-           </div> 
-
-           <div className="row pt-1">
-              <div className="col">
-                <div className="d-flex justify-content-start">
-                <button className="btn btn-success mr-1">Reviews 7</button>
-                <button className="btn btn-success">Contact 8</button>
-                </div>
-              </div>
-           </div> 
-
-           <div className="row pt-1">
+         <div className="row pt-1 pb-2">
               <div className="col">
                 <div className="d-flex justify-content-start">
                 <button className="btn btn-success mr-2" disabled={this.state.artyomActive} onClick={this.startAssistant}> Start</button>
                 <button className="btn btn-danger" disabled={!this.state.artyomActive} onClick={this.stopAssistant}> End</button>
+                </div>
+              </div>
+           </div> 
+
+           <div className="row pt-1 pb-1">
+              <div className="col">
+                <div className="d-flex justify-content-start">
+                <button className="btn btn-secondary btn-md mr-1">Header 1</button>
+                <button className="btn btn-secondary btn-md">Deals 2</button>
+                </div>
+              </div>
+           </div> 
+
+           <div className="row pt-1 pb-1">
+              <div className="col">
+                <div className="d-flex justify-content-start">
+                <button className="btn btn-secondary  btn-md mr-1">Newborn 3</button>
+                <button className="btn btn-secondary btn-md"> Carrier 4</button>
+                </div>
+              </div>
+           </div> 
+
+           <div className="row pt-1 pb-1">
+              <div className="col">
+                <div className="d-flex justify-content-start">
+                <button className="btn btn-secondary btn-md mr-1">BabyCare 5</button>
+                <button className="btn btn-secondary btn-md">About 6</button>
+                </div>
+              </div>
+           </div> 
+
+           <div className="row pt-1 pb-1">
+              <div className="col">
+                <div className="d-flex justify-content-start">
+                <button className="btn btn-secondary mr-1 btn-md  ">Reviews 7</button>
+                <button className="btn btn-secondary btn-md">Contact 8</button>
                 </div>
               </div>
            </div> 

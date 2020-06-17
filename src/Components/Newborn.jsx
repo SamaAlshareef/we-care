@@ -25,7 +25,7 @@ class Newborn extends Component {
                             <h1 className="card-body text-center text-muted ">New Born</h1>
                             <p className="card-text text-center text-muted ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis risus,</p>
                             <p className="card-text text-center text-muted ">rutrum imperdiet finibus in, iaculis eu leo. Duis vitae turpis augue.</p>
-                            <img className="mx-auto d-block" src="/images/line.png"></img>
+                            <img className="mx-auto d-block" src="/images/line.png" alt=".."></img>
                 </div>
             </div>
             <div className="row">
@@ -33,7 +33,7 @@ class Newborn extends Component {
                 <div className="card-deck">
                     
                     <div className="card border-0  ">
-                        <img className="card-img-top w-100" src="/images/newborn1.png" ></img>
+                        <img className="card-img-top w-100" src="/images/newborn1.png" alt=".." ></img>
                         <div className="card-body">
                             <h5 className="card-title text-center text-success pt-4">Clothing</h5>
                             <p className="card-text text-center text-muted">Lorem ipsum dolor sit amet</p>
@@ -42,7 +42,7 @@ class Newborn extends Component {
                     </div>
                     
                     <div className="card border-0 ">
-                        <img className="card-img-top" src='/images/newborn2.png' alt="Card image cap"></img>.
+                        <img className="card-img-top" src='/images/newborn2.png' alt=".."></img>.
                         <div className="card-body">
                         <h5 className="card-title text-center text-success ">Feeding</h5>
                         <p className="card-text text-center text-muted">Lorem ipsum dolor sit amet</p>
@@ -50,7 +50,7 @@ class Newborn extends Component {
                         </div>
                     </div>
                     <div className="card border-0">
-                        <img className="card-img-top" src="/images/newborn3.png" alt="Card image cap"></img>
+                        <img className="card-img-top" src="/images/newborn3.png" alt=".."></img>
                         <div className="card-body">
                         <h5 className="card-title text-center text-success pt-3">Bedtime</h5>
                         <p className="card-text text-center text-muted">Lorem ipsum dolor sit amet</p>

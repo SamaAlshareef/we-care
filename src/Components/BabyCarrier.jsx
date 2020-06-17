@@ -1,4 +1,4 @@
-import React, { Component, isValidElement } from 'react';
+import React, { Component } from 'react';
 
 class BabyCarrier extends Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class BabyCarrier extends Component {
             <div className="container-fluid pb-5" ref = {this.ref}>
                 <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="/images/babyCarrier.png" alt=".."></img>
+                        <img className="img-fluid"src="/images/babyCarrier.png" alt=".."></img>
                     </div>
                     <div className="col-6">
                         <div className="pl-5 pt-4">

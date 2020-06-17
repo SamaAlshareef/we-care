@@ -24,11 +24,11 @@ class About extends Component {
                         <div className="card-img-overlay ">
                         <div className="row pt-5 justify-content-center">
                             <div className="col-2">
-                            <img className="align-middle" src='/images/whiteLine.png'></img>
+                            <img className="align-middle img-fluid" src='/images/whiteLine.png' alt=".."></img>
                             </div>
                         </div>
-                        <div className="row pt-5 justify-content-center">
-                            <div className="col">
+                        <div className="row  justify-content-center">
+                            <div className="col -8">
                                 <div className="align-middle">
                                 <p className="card-text text-center  montserrat display-4 ">Since 2002, Baby Care Advice has assisted thousands of parents</p>
                                 <p className="card-text text-center  montserrat display-4">worldwide solve minor and complex baby care problems by</p>
@@ -38,9 +38,6 @@ class About extends Component {
 
 
                                 </div>
-                            
-                            
-                            
                             
                         </div>
                         </div>

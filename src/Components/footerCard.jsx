@@ -20,17 +20,17 @@ class footerCard extends Component {
             <div className="container" ref ={this.ref}>
                 <div className="row">
                 <div className="card text-white border-0">
-                    <img className="card-img" src="/images/rectangle2.png" alt="Card image"></img>
-                    <div className="card-img-overlay d-flex">
-                        <div className="col-9 ">
-                            <div className=" float-left">
-                                <h2 className="card-body montserrat display-4  ">Sign up for our newsletter</h2>
-                                <h2 className="card-body   montserrat-black display-4 ">Newborn baby</h2>
-                            </div>
+                    <img className="img-fluid" src="/images/rectangle2.png" alt=".."></img>
+                    <div className="card-img-overlay img-fluid d-flex align-items-center">
+                        <div className="col-9 d-flex flex-column  align-items-center">
+                           
+                                <h2 className="card-text montserrat display-4 ">Sign up for our newsletter</h2>
+                                <h2 className="card-text   montserrat-black display-4 ">Newborn baby</h2>
+                            
                         </div>
-                        <div className="col-3 pt-5">
-                            <div className="d-flex justify-content-center align-items-start">
-                            <button className="btn btn-secondary  shadow p-3 mb-5  rounded" >Get started</button>
+                        <div className="col-3  ">
+                            <div className="d-flex ">
+                            <button className="btn btn-secondary btn-bock shadow p-3 mb-5  rounded" >Get started</button>
                             </div>
                         </div>
                     </div>

@@ -89,14 +89,14 @@ class Footer extends Component {
                   </div>
                  
                   <div className="col-4 justify-content-right">
-                    <img src="/images/4stars.png" ></img>
+                    <img className="img-fluid" src="/images/4stars.png" alt=".." ></img>
                     <h6 className="small pt-3 text-muted"> 10,000 Trust People The Full Stack design team who focuses on digital products whatever they are</h6>
-                    <img src="/images/Social.png" className="pt-3"></img>
+                    <img className="img-fluid pt-3" src="/images/Social.png" alt=".."></img>
                   </div>
           
                 </div>
                 <div className="row justify-content-center pt-4">
-                  <img src="/images/Logo.png"></img>
+                  <img className="img-fluid" src="/images/Logo.png" alt=".."></img>
                 </div>
                
             

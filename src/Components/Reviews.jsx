@@ -25,7 +25,7 @@ class Reviews extends Component {
                         <h1 className="text-muted text-center">Customer Reviews</h1>
                         <p className="text-muted text-center"> A new born baby can feel small and fragile. Learn how to care for your newborn</p> 
                         <p className="text-muted text-center">and find out</p>
-                        <img className="mx-auto d-block" src='/images/line.png'></img>
+                        <img className="mx-auto d-block" src='/images/line.png' alt=".."></img>
                     </div>
                 </div>
                 <div className="row justify-content-center">
@@ -35,7 +35,7 @@ class Reviews extends Component {
                             <div className="card-body">
                             <h5 className="card-title">John L.Clarkson</h5>
                             <h5 className="small text-success">a day ago</h5>
-                            <img src='/images/5stars.png'></img>
+                            <img className="img-fluid" src='/images/5stars.png' alt=".."></img>
                             <p className="card-text pt-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>  
                         </div>
@@ -43,7 +43,7 @@ class Reviews extends Component {
                             <div className="card-body">
                             <h5 className="card-title">Todd Jefferies</h5>
                             <h5 className="small text-success">10 days ago</h5>
-                            <img src='/images/4stars.png'></img>
+                            <img className="img-fluid" src='/images/4stars.png' alt=".."></img>
                             <p className="card-text pt-3">This card has supporting text below as a natural lead-in to additional content.</p>
                             </div>  
                         </div>
@@ -51,7 +51,7 @@ class Reviews extends Component {
                             <div className="card-body ">
                             <h5 className="card-title">Jackie Parker</h5>
                             <h5 className="small text-success">a month ago</h5>
-                            <img src='/images/4stars.png'></img>
+                            <img className="img-fluid" src='/images/4stars.png' alt=".."></img>
                             <p className="card-text pt-3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                             </div>
                         </div>

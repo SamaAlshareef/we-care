@@ -27,18 +27,18 @@ class BestDealsCards extends Component {
                                 <h1 className="card-body text-center text-muted ">Best Deals</h1>
                                 <p className="card-text text-center text-muted ">A newborn baby can feel small and fragile. Learn how to care for your newborn</p>
                                 <p className="card-text text-center text-muted ">and find out what</p>
-                                <img className="mx-auto d-block" src="/images/line.png"></img>
+                                <img className="mx-auto d-block" src="/images/line.png" alt=".."></img>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-4">
-                        <img src="/images/care1.png" className="img-fluid"></img>
+                        <img src="/images/care1.png" className="img-fluid" alt=".."></img>
                     </div>
                     <div className="col-4">
-                        <img src="/images/care2.png" className="img-fluid"></img>
+                        <img src="/images/care2.png" className="img-fluid" alt=".."></img>
                     </div>
                     <div className="col-4">
-                        <img src="/images/care3.png" className="img-fluid"></img>
+                        <img src="/images/care3.png" className="img-fluid" alt=".."></img>
                     </div>
                     
                 </div>

@@ -12,7 +12,7 @@ export default class ArtyomCommandsManager {
     }
     
     clickHandler =(p)=>{
-        console.log(elementRefs[1])
+
         p.handleNavigate();
     }
  

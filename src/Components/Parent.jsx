@@ -22,12 +22,12 @@ class Parent extends Component {
        p.handleNavigate();
    }
 
-   componentDidMount()
-   {
-       console.log(elementRefs[0]);
-       console.log(elementRefs[1]);
-       console.log(elementRefs[2]);
-   }
+//    componentDidMount()
+//    {
+//        console.log(elementRefs[0]);
+//        console.log(elementRefs[1]);
+//        console.log(elementRefs[2]);
+//    }
     render() { 
         return ( 
         <React.Fragment>
